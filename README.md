@@ -70,8 +70,8 @@ To enable the yeast to consume oil, we needed to increase the bioavailability of
 
 ## 📬 Contact
 **Jeong-Ho (Jay) Choi**
-* **LinkedIn:** [Your LinkedIn Profile Link]
-* **Email:** [Your Email Address]
+* **LinkedIn:** [https://www.linkedin.com/in/jeongho-choi/]
+* **Email:** [kuczo11@hotmail.com]
 
 ---
 *For a detailed walkthrough of the project, experimental data, and team members, please visit our [Wiki Description Page](https://2023.igem.wiki/kuleuven/description).*
