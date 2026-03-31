@@ -14,14 +14,13 @@
 2. [Overview & Key Models](#2-overview--key-models)
 3. [Experimental Design](#3-experimental-design)
    - [3a. Engineering Cycle (DBTL)](#3a-engineering-cycle-dbtl)
-   - [3b. Experimental Protocols](#3b-experimental-protocols)
-4. [Lab Notebooks](#4-lab-notebooks)
-5. [Results](#5-results)
-   - [5.1 Wet Lab Results](#51-wet-lab-results)
-   - [5.2 Dry Lab Results](#52-dry-lab-results)
-6. [BioBrick Parts Contribution](#6-biobrick-parts-contribution)
-7. [Conclusions & Future Directions](#7-conclusions--future-directions)
-8. [References](#8-references)
+4. [Results](#4-results)
+   - [4.1 Wet Lab Results](#41-wet-lab-results)
+   - [4.2 Dry Lab Results](#42-dry-lab-results)
+5. [BioBrick Parts Contribution](#5-biobrick-parts-contribution)
+6. [Conclusions & Future Directions](#6-conclusions--future-directions)
+7. [References](#7-references)
+8. [👥 Team & Author](#-team--author)
 
 ---
 
@@ -29,38 +28,36 @@
 
 ### Background: Why This Project?
 
-Belgium is renowned for its fried food culture; in 2021 alone, approximately 88,000 metric tons of Waste Cooking Oil (WCO) were generated. This project explores a high-value alternative to biodiesel by converting WCO into pharmaceutical precursors.
+Belgium produces approximately **88,000 metric tons** of Waste Cooking Oil (WCO) annually. Our project, **YarroWCO**, converts this waste into **Campesterol**, a **$10 billion** market value steroid drug precursor.
 
 <div align="center">
-  <img src="Figures/Figure 2. Current synthesis methods of steroidal active pharmaceutical ingredient synthesis.png" width="800" alt="Current synthesis methods">
+  <img src="Figures/Figure 2. Current synthesis methods of steroidal active pharmaceutical ingredient synthesis.png" width="750" alt="Synthesis Methods">
   <br>
-  <em><b>Figure 2.</b> Comparison of current steroid drug precursor extraction vs. our proposed biosynthetic approach.</em>
+  <em><b>Figure 2.</b> Current synthesis methods vs. our proposed biosynthetic approach using WCO.</em>
 </div>
 
 ### Core Concept
 
-We aim to replace traditional plant/animal extraction with WCO-based biosynthesis via *Y. lipolytica*.
+We aim to replace traditional extraction methods with **WCO-based biosynthesis** via the oleaginous yeast ***Yarrowia lipolytica***.
 
 <div align="center">
-  <img src="Figures/Figure 3. Metabolic pathways in Yarrowia. Reproduced under permission.png" width="600" alt="Metabolic pathways in Yarrowia">
+  <img src="Figures/Figure 3. Metabolic pathways in Yarrowia. Reproduced under permission.png" width="600" alt="Metabolic Pathways">
   <br>
-  <em><b>Figure 3.</b> Metabolic pathways in Yarrowia lipolytica, focusing on the Mevalonate pathway for campesterol production.</em>
+  <em><b>Figure 3.</b> Metabolic pathways in Yarrowia lipolytica, focusing on the Mevalonate pathway.</em>
 </div>
 
 ---
 
 ## 2. Overview & Key Models
 
-> 📌 **iGEM 2023 Best Model Nominee** > Official model page: [https://2023.igem.wiki/kuleuven/model](https://2023.igem.wiki/kuleuven/model)
+### Dry Lab Objectives
 
-### Dry Lab Objectives Summary
-
-Our computational work focused on four pillars: Enzyme screening, Growth modeling, Hydrophobin design, and Genetic switch logic.
+Our computational work integrated **structural biology** and **growth kinetics**.
 
 <div align="center">
-  <img src="Figures/dry lab introduction_methods.png" width="800" alt="Dry Lab Methods Summary">
+  <img src="Figures/dry lab introduction_methods.png" width="800" alt="Dry Lab Methods">
   <br>
-  <em><b>Dry Lab Summary:</b> Integration of structural bioinformatics and systems biology modeling.</em>
+  <em><b>Dry Lab Summary:</b> Four pillars of our computational approach.</em>
 </div>
 
 ---
@@ -69,85 +66,172 @@ Our computational work focused on four pillars: Enzyme screening, Growth modelin
 
 ### 3a. Engineering Cycle (DBTL)
 
-#### Iteration 1: First Cloning Attempt in pET28
-
-Initially, we designed 8 constructs using the pET28 backbone and AcGFP-linker-hydrophobin fusion.
+#### Iteration 1: pET28 System
+We initially utilized a **pET28 backbone** for biosurfactant (hydrophobin) expression.
 
 <div align="center">
-  <img src="Figures/Figure 3. pET28_AcGFP_MBSP1_060723..png" width="500" alt="pET28 Vector Map">
+  <img src="Figures/Table 1. Hydrophobins used for.png" width="600" alt="Hydrophobin Table">
   <br>
-  <em><b>Figure 3.</b> Vector map of pET28_AcGFP_MBSP1 used in the first DBTL cycle.</em>
+  <em><b>Table 1.</b> Hydrophobin candidates screened for expression.</em>
 </div>
 
-**Build & Test:**
-The initial PCR for the pET28 backbone failed, prompting a transition to a new cloning strategy.
-
 <div align="center">
-  <img src="Figures/Figure 4. Agarose gel showing the result of our first iteration of the DBTL cycle.png" width="450" alt="First DBTL Agarose Gel">
+  <img src="Figures/Figure 3. pET28_AcGFP_MBSP1_060723..png" width="450" alt="pET28 Map">
   <br>
-  <em><b>Figure 4.</b> Agarose gel result: Lane 2 (pET28 backbone) failure vs. Lane 4/5 (inserts) success.</em>
+  <em><b>Figure 3.</b> Vector map of the pET28_AcGFP_MBSP1 construct.</em>
 </div>
 
----
-
-## 5. Results
-
-### 5.1 Wet Lab Results
-
-#### PCR Amplification of gBlocks
-Successful amplification was achieved for various hydrophobin inserts (MBSP1, HFBI, HFBII, HGFI).
+**Initial Test:**
+The first iteration showed successful insert PCR but **backbone amplification challenges**.
 
 <div align="center">
-  <img src="Figures/Figure 1 Agarose gel of PCR amplified gBlocks.png" width="450" alt="PCR gBlocks">
+  <img src="Figures/Figure 4. Agarose gel showing the result of our first iteration of the DBTL cycle.png" width="450" alt="DBTL Gel 1">
   <br>
-  <em><b>Figure 1.</b> High-fidelity PCR results for diverse hydrophobin gBlock fragments.</em>
+  <em><b>Figure 4.</b> First iteration agarose gel: Validation of AcGFP and HGFI fragments.</em>
 </div>
 
-#### Colony PCR for Gibson Assembly
-Confirmation of successful transformants for MBSP1 and HFBI (Natural/Mutant).
+#### Iteration 2: Transition to pET29-sfGFP
+We optimized the workflow using **Gibson Assembly** and a **linker-sfGFP fusion system**.
 
 <div align="center">
-  <img src="Figures/Figure 2. Colony PCR for Gibson assemblies of MBSP1.png" width="400" alt="Colony PCR MBSP1">
-  <img src="Figures/Figure 3. Colony PCR for Gibson assemblies of HFBI (natural sequence).png" width="400" alt="Colony PCR HFBI">
+  <img src="Figures/Figure 7. Flowchart for intermediate plasmid assembly.png" width="800" alt="Assembly Flowchart">
   <br>
-  <em><b>Figure 2 & 3.</b> Successful colony PCR bands indicating correct insert integration.</em>
+  <em><b>Figure 7.</b> Flowchart of intermediate plasmid assembly for protein expression.</em>
 </div>
 
-#### Summary of Colony PCR results (HFBII, HFBI, MBSP1)
-Systematic screening across multiple constructs to verify positive clones.
-
 <div align="center">
-  <img src="Figures/Fig16_18.png" width="900" alt="Combined Colony PCR Results">
+  <img src="Figures/Figure 5. pET29_link_MBSP1_200723.png" width="400" alt="pET29 MBSP1">
+  <img src="Figures/Figure 6. pET29_linker_sfGFP_200723_5547bp.png" width="400" alt="pET29 sfGFP">
   <br>
-  <em><b>Figure 16-18.</b> Representative gels for HFBII (left), HFBI (middle), and MBSP1 (right) colony PCRs.</em>
+  <em><b>Figures 5 & 6.</b> Optimized vector maps for biosurfactant-sfGFP fusions.</em>
 </div>
 
 ---
 
-## 6. BioBrick Parts Contribution
+## 4. Results
 
-We successfully submitted **BBa_K4661015** to the iGEM Registry, providing a standardized part for hydrophobin-sfGFP fusion expression.
+### 4.1 Wet Lab Results
+
+#### PCR & Colony Confirmation
+Systematic validation of gene fragments and successful transformants.
+
+<div align="center">
+  <img src="Figures/Figure 1 Agarose gel of PCR amplified gBlocks.png" width="400" alt="gBlock PCR">
+  <img src="Figures/Figure 14. Q5 PCR result 1= ladder, 2=HFBI, 3= HFBII, 4= MBSP1, 5=pBEVY, 6= MF.png" width="400" alt="Q5 PCR">
+  <br>
+  <em><b>Left:</b> PCR of gBlocks. <b>Right:</b> Q5 high-fidelity PCR results.</em>
+</div>
+
+<div align="center">
+  <img src="Figures/Fig16_18.png" width="850" alt="Combined Colony PCR">
+  <br>
+  <em><b>Figures 16-18.</b> Representative colony PCR results verifying MBSP1, HFBI, and HFBII integration.</em>
+</div>
+
+#### Sequencing & SDS-PAGE
+Confirmation of genetic fidelity and protein production yield.
+
+<div align="center">
+  <img src="Figures/Figure 6. Sequencing results for MBSP1, HFBI (natural sequence) and the HFBI.png" width="450" alt="Sequencing Results">
+  <img src="Figures/Figure 8. Sequencing result for linker plasmid.png" width="450" alt="Linker Sequencing">
+  <br>
+  <em><b>Sequencing Data:</b> High-quality chromatograms confirming the sfGFP-linker-target reading frame.</em>
+</div>
+
+<div align="center">
+  <img src="Figures/Figure 7. SDS-PAGE for MBSP1, HFBI (natural sequence) and HFBI (mutated sequence).png" width="400" alt="SDS-PAGE">
+  <img src="Figures/Figure 9. GFP expression in E. coli.png" width="450" alt="GFP Tube">
+  <br>
+  <em><b>Protein Analysis:</b> SDS-PAGE showing higher yield for mutant HFBI (left) and visible GFP fluorescence in pellet (right).</em>
+</div>
+
+---
+
+## 5. BioBrick Parts Contribution
+
+We submitted standardized parts to the iGEM Registry to facilitate future surfactant research.
 
 <div align="center">
   <img src="Figures/BBa_K4661015.png" width="800" alt="BioBrick BBa_K4661015">
   <br>
-  <em><b>Part BBa_K4661015:</b> HFBI (mutant)-Linker-sfGFP expression cassette.</em>
+  <em><b>Part BBa_K4661015:</b> HFBI (mutant)-Linker-sfGFP cassette.</em>
+</div>
+
+<div align="center">
+  <img src="Figures/스크린샷 2026-03-30 173808.png" width="600" alt="Primer Sequence">
+  <br>
+  <em>Validation primer sequences for Registry submission.</em>
 </div>
 
 ---
 
-## 7. Conclusions & Future Directions
+## 6. Conclusions & Future Directions
 
-### Key Achievements
-- **Wet Lab:** Expressed MBSP1 and HFBI in *E. coli*; verified that Cys→Ser mutations enhance yield.
-- **Dry Lab:** Completed molecular docking/MD for 10 DHCR7 enzymes; established *Y. lipolytica* growth models.
+### Summary of Wet Lab Activities
+
+<div align="center">
+  <img src="Figures/Figure 5. Summary of wet lab activities performed in E. coli.png" width="800" alt="Wet Lab Summary">
+  <br>
+  <em><b>Figure 5.</b> Schematic summary of experimental pipeline in E. coli.</em>
+</div>
+
+### Future Strategy: Promoter Engineering
+We proposed a transition to a **"Marionette"** promoter system for tighter regulation.
+
+<div align="center">
+  <img src="Figures/Figure 10. Our idea for improving our promotor and ensuring inducible expression of our target protein.png" width="700" alt="Promoter Optimization">
+  <br>
+  <em><b>Figure 10.</b> Proposed optimization of leaky vs. tight inducible promoters.</em>
+</div>
 
 ---
 
+## 7. References
+
+1. Du, H.X. et al. Engineering *Yarrowia lipolytica* for campesterol overproduction. *PLoS ONE* **11** (2016)
+
+2. Zhang, Y. et al. Improved campesterol production in engineered *Yarrowia lipolytica* strains. *Biotechnol. Lett.* **39** (2017)
+
+3. Jumper, J. et al. Highly accurate protein structure prediction with AlphaFold. *Nature* **596** (2021)
+
+4. Mirdita, M. et al. ColabFold: making protein folding accessible to all. *Nat. Methods* **19** (2022)
+
+5. Trott, O. & Olson, A.J. AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. *J. Comput. Chem.* (2009)
+
+6. Pettersen, E.F. et al. UCSF Chimera — A visualization system for exploratory research and analysis. *J. Comput. Chem.* **25** (2004)
+
+7. Laskowski, R.A. & Swindells, M.B. LigPlot+: Multiple ligand-protein interaction diagrams for drug discovery. *J. Chem. Inf. Model.* **51** (2011)
+
+8. Stierand, K., Maaß, P.C. & Rarey, M. Molecular complexes at a glance: Automated generation of two-dimensional complex diagrams. *Bioinformatics* **22** (2006)
+
+9. Cock, P.J.A. et al. Biopython: Freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics* **25** (2009)
+
+10. Bendl, J. et al. PredictSNP: Robust and Accurate Consensus Classifier for Prediction of Disease-Related Mutations. *PLoS Comput. Biol.* **10** (2014)
+
+11. Schymkowitz, J. et al. The FoldX web server: An online force field. *Nucleic Acids Res.* **33** (2005)
+
+12. Radusky, L.G. & Serrano, L. PyFoldX: enabling biomolecular analysis and engineering along structural ensembles. *Bioinformatics* **38** (2022)
+
+13. Jun Cheng et al. Accurate proteome-wide missense variant effect prediction with AlphaMissense. *Science* **381**, eadg7492 (2023)
+
+14. Leon, M. et al. A computational method for the investigation of multistable systems and its application to genetic switches. *BMC Syst. Biol.* **10** (2016)
+
+15. Gardner, T.S., Cantor, C.R. & Collins, J.J. Construction of a genetic toggle switch in *Escherichia coli*. *Nature* **403** (2000)
+
+16. Bonnet, J., Subsoontorn, P. & Endy, D. Rewritable digital data storage in live cells via engineered control of recombination directionality. *Proc. Natl Acad. Sci. USA* **109** (2012)
+
+---
+
+## 👥 Team & Author
+
 <div align="center">
+  <img src="Figures/YarroWCO.png" width="800" alt="iGEM KU Leuven 2023 Team">
+  <br>
+  <em><b>iGEM KU Leuven 2023 Team 'YarroWCO' at Arenberg Castle.</b></em>
+</div>
 
-**iGEM KU Leuven 2023 | YarroWCO**
+<br>
 
-[🌐 Official Wiki](https://2023.igem.wiki/kuleuven/) | [🔬 Description](https://2023.igem.wiki/kuleuven/description) | [📊 Model](https://2023.igem.wiki/kuleuven/model) | [📋 Results](https://2023.igem.wiki/kuleuven/results)
-
+<div align="center">
+  [🌐 Official Wiki](https://2023.igem.wiki/kuleuven/) | [🔬 Project Description](https://2023.igem.wiki/kuleuven/description) | [📊 Model](https://2023.igem.wiki/kuleuven/model)
 </div>
