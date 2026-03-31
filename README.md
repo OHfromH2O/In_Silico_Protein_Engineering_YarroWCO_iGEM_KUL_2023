@@ -9,6 +9,16 @@
 
 🔗 **[View Official iGEM Wiki](https://2023.igem.wiki/kuleuven/)**
 
+<br>
+
+<div align="center">
+
+[![View Full Visual Portfolio](https://img.shields.io/badge/View_Full_Visual_Portfolio-Click_Here-2ea44f?style=for-the-badge&logo=markdown)](iGEM_2023_Portfolio_Final.md)
+<br><em>👇 Explore detailed vector maps, gel electrophoresis, sequencing data, and DBTL cycles! 👇</em>
+
+</div>
+
+<br>
 ## 📌 Project Overview
 **Waste Cooking Oil (WCO)** poses a significant environmental burden, often clogging sewage systems ("fatbergs") or contaminating water sources. Our team, representing **KU Leuven**, proposed a circular economy solution: using synthetic biology to turn this pollutant into a valuable resource.
 
