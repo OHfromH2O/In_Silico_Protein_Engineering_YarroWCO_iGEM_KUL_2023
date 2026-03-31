@@ -13,12 +13,13 @@
 
 <div align="center">
 
-[![View Full Visual Portfolio](https://img.shields.io/badge/View_Full_Visual_Portfolio-Click_Here-2ea44f?style=for-the-badge&logo=markdown)](iGEM_2023_Portfolio_Final.md)
+[![View Full Visual Portfolio](https://img.shields.io/badge/View_Full_Visual_Portfolio-Click_Here-2ea44f?style=for-the-badge&logo=markdown)](iGEM_KU_Leuven_2023_Portfolio.md)
 <br><em>👇 Explore detailed vector maps, gel electrophoresis, sequencing data, and DBTL cycles! 👇</em>
 
 </div>
 
 <br>
+
 ## 📌 Project Overview
 **Waste Cooking Oil (WCO)** poses a significant environmental burden, often clogging sewage systems ("fatbergs") or contaminating water sources. Our team, representing **KU Leuven**, proposed a circular economy solution: using synthetic biology to turn this pollutant into a valuable resource.
 
@@ -80,8 +81,8 @@ To enable the yeast to consume oil, we needed to increase the bioavailability of
 
 ## 📬 Contact
 **Jeong-Ho (Jay) Choi**
-* **LinkedIn:** [https://www.linkedin.com/in/jeongho-choi/]
-* **Email:** [kuczo11@hotmail.com]
+* **LinkedIn:** [https://www.linkedin.com/in/jeongho-choi/](https://www.linkedin.com/in/jeongho-choi/)
+* **Email:** [kuczo11@hotmail.com](mailto:kuczo11@hotmail.com)
 
 ---
-*For a detailed walkthrough of the project, experimental data, and team members, please visit our [Wiki Description Page](https://2023.igem.wiki/kuleuven/description).*
+*For a detailed walkthrough of the project, experimental data, and team members, please visit our **[Full Visual Portfolio](iGEM_KU_Leuven_2023_Portfolio.md)** or the [Official Wiki Description Page](https://2023.igem.wiki/kuleuven/description).*
