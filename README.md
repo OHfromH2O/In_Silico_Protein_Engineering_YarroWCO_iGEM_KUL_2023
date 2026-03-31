@@ -13,8 +13,8 @@
 
 <div align="center">
 
+<em>👇 Explore detailed vector maps, gel electrophoresis, sequencing data, and DBTL cycles! 👇</em><br><br>
 [![View Full Visual Portfolio](https://img.shields.io/badge/View_Full_Visual_Portfolio-Click_Here-2ea44f?style=for-the-badge&logo=markdown)](iGEM_KU_Leuven_2023_Portfolio.md)
-<br><em>👇 Explore detailed vector maps, gel electrophoresis, sequencing data, and DBTL cycles! 👇</em>
 
 </div>
 
@@ -85,4 +85,3 @@ To enable the yeast to consume oil, we needed to increase the bioavailability of
 * **Email:** [kuczo11@hotmail.com](mailto:kuczo11@hotmail.com)
 
 ---
-*For a detailed walkthrough of the project, experimental data, and team members, please visit our **[Full Visual Portfolio](iGEM_KU_Leuven_2023_Portfolio.md)** or the [Official Wiki Description Page](https://2023.igem.wiki/kuleuven/description).*
