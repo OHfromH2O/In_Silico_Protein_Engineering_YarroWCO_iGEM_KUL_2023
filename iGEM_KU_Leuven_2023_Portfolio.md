@@ -283,5 +283,7 @@ We proposed a transition to a "Marionette" promoter system for tighter regulatio
 <br>
 
 <div align="center">
-  [🌐 Official Wiki](https://2023.igem.wiki/kuleuven/) | [🔬 Project Description](https://2023.igem.wiki/kuleuven/description) | [📊 Model](https://2023.igem.wiki/kuleuven/model)
+  [🌐 Official Wiki](https://2023.igem.wiki/kuleuven/)<br>
+  [🔬 Project Description](https://2023.igem.wiki/kuleuven/description)<br>
+  [📊 Model](https://2023.igem.wiki/kuleuven/model)
 </div>
