@@ -18,7 +18,7 @@
 6. [BioBrick Parts Contribution](#6-biobrick-parts-contribution)
 7. [Conclusions & Future Directions](#7-conclusions--future-directions)
 8. [References](#8-references)
-9. [👥 Team & Author](#9-team--author)
+9. [Team & Author](#9-team--author)
 
 ---
 
@@ -272,7 +272,7 @@ We proposed a transition to a "Marionette" promoter system for tighter regulatio
 
 ---
 
-## 9. 👥 Team & Author
+## 9. Team & Author
 
 <div align="center">
   <img src="Figures/YarroWCO.png" width="800" alt="iGEM KU Leuven 2023 Team">
