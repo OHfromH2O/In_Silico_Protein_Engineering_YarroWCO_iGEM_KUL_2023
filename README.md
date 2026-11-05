@@ -36,6 +36,12 @@ I operated at the intersection of computational modeling and experimental valida
 ---
 
 ## 💻 In Silico Engineering (Dry Lab)
+
+<div align="center">
+<img src="Figures/dry%20lab%20introduction_methods.png" width="640"/><br>
+<em>The four dry lab modules: enzyme screening, growth modelling, hydrophobin design, and the genetic switch.</em>
+</div>
+
 The Campesterol biosynthesis pathway requires the reduction of ergosta-5,7-dienol. To achieve this, we needed a highly efficient **7-Dehydrocholesterol Reductase (DHCR7)**.
 
 ### 1. Structure Prediction (AlphaFold)
@@ -53,17 +59,52 @@ To ensure the enzymes remained stable under physiological conditions, I performe
 * **Tools:** Amber (Sander/PMEMD).
 * **Analysis:** Calculated RMSD (Root Mean Square Deviation) and RMSF (Fluctuation) to assess structural stability and flexibility in a solvated environment.
 
+### 4. Design records
+
+The day-by-day records behind the three sections above are in this repository.
+They carry the candidate lists, the docking protocol and its validation run, and
+the cpptraj scripts used for RMSD and RMSF.
+
+| Notebook | Pages | Covers |
+| :--- | :---: | :--- |
+| [DHCR7 enzyme screening](Figures/dry-lab-notebook-enzyme-screening.pdf) | 15 | Candidate enzymes from 10 organisms, AlphaFold and ColabFold prediction, AutoDock Vina docking, MD analysis |
+| [Hydrophobin design](Figures/dry-lab-notebook-hydrophobin-design.pdf) | 6 | Sequence variants with a lowered theoretical pI, structure prediction of the variants |
+| [MD protocol](Figures/md-protocol.pdf) | 11 | Simulation protocol for the team, written by Julia Bandera under guidance of prof. Mathy Froeyen |
+
+**What did not work.** We set out to lower the isoelectric point of a hydrophobin
+by mutation and to check the effect with AlphaFold 2. The predicted structures did
+not reflect the mutations, so we stopped using AlphaFold for that purpose and
+looked for another strategy. The notebook records the reasoning on the day it was
+made, which is why it is here rather than summarised away.
+
 ---
 
 ## 🧬 Experimental Validation (Wet Lab)
 To enable the yeast to consume oil, we needed to increase the bioavailability of WCO. I focused on the "Biosurfactant Module."
 
 * **Strain Engineering:** Engineered *E. coli* to express **Hydrophobins** (Biosurfactants) to test the concept of oil emulsification.
+
+<div align="center">
+<img src="Figures/Table%201.%20Hydrophobins%20used%20for.png" width="560"/><br>
+<em>The biosurfactant constructs we worked with. Asterisks mark the mutated variants designed in the dry lab.</em>
+</div>
+
 * **Cloning Workflow:**
     * Performed **Gibson Assembly** to construct expression vectors.
     * Conducted **colony PCR (cPCR)** for screening.
     * Optimized **IPTG-induced** gene expression.
 * **Reporter System:** Co-expressed Green Fluorescent Protein (GFP) to visually track biosurfactant production and aggregation at the oil-water interface.
+
+One construct from this work is registered in the iGEM Parts Registry as
+**BBa_K4661015**, a mutated HFBI joined to sfGFP through a linker.
+
+<div align="center">
+<img src="Figures/BBa_K4661015.png" width="620"/><br>
+<em>BBa_K4661015. Mutated HFBI, linker, sfGFP.</em>
+<br><br>
+<img src="Figures/Figure%209.%20GFP%20expression%20in%20E.%20coli.png" width="420"/><br>
+<em>GFP expression in <i>E. coli</i> carrying the construct.</em>
+</div>
 
 ---
 
