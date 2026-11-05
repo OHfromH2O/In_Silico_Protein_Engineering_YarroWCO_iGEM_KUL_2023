@@ -2,6 +2,7 @@
 
 ![Competition](https://img.shields.io/badge/Competition-iGEM%202023-blue)
 ![Award](https://img.shields.io/badge/Award-Silver%20Medal-silver)
+![Best Model](https://img.shields.io/badge/Nominee-Best%20Model-gold)
 ![Role](https://img.shields.io/badge/Role-Wet%20%26%20Dry%20Lab%20Core-green)
 ![Tech](https://img.shields.io/badge/Tools-AlphaFold%20%7C%20Amber%20%7C%20AutoDock-orange)
 
@@ -41,6 +42,8 @@ I operated at the intersection of computational modeling and experimental valida
 <img src="Figures/dry%20lab%20introduction_methods.png" width="640"/><br>
 <em>The four dry lab modules: enzyme screening, growth modelling, hydrophobin design, and the genetic switch.</em>
 </div>
+
+This is the work our team was nominated for **Best Model** at the 2023 Grand Jamboree.
 
 The Campesterol biosynthesis pathway requires the reduction of ergosta-5,7-dienol. To achieve this, we needed a highly efficient **7-Dehydrocholesterol Reductase (DHCR7)**.
 
@@ -118,6 +121,7 @@ One construct from this work is registered in the iGEM Parts Registry as
 
 ## 🏆 Achievements
 * **Silver Medal:** Awarded at the **iGEM Grand Jamboree 2023** (Paris).
+* **Best Model Nomination:** For the computational work described on this page. [Official model page](https://2023.igem.wiki/kuleuven/model)
 * **Best Education Nomination:** Recognized for excellence in scientific communication and public engagement.
 
 ## 📬 Contact
