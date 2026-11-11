@@ -9,7 +9,7 @@
 ---
 
 ## 📋 Table of Contents
-
+0. [Engineering Highlights]
 1. [Project Introduction](#1-project-introduction)
 2. [Overview & Key Models](#2-overview--key-models)
 3. [Experimental Design](#3-experimental-design)
@@ -19,6 +19,64 @@
 7. [Conclusions & Future Directions](#7-conclusions--future-directions)
 8. [References](#8-references)
 9. [Team & Author](#9-team--author)
+
+---
+
+## 0. Engineering Highlights
+
+Key engineering decisions, troubleshooting and verification work in this project.
+
+### 1) Establishing the expression process through design iteration — three DBTL cycles
+
+In the pET28-based Golden Gate strategy, insert amplification succeeded while
+backbone amplification failed. After identifying the cause, we changed route
+rather than continuing to tune conditions: we moved to a pET29-sfGFP backbone
+with Gibson Assembly and a 21 bp linker (SGGSGGS), which yielded working
+expression vectors.
+
+This was an exercise in distinguishing a parameter-tuning problem from a
+route-change problem.
+
+### 2) Improving expression through variant design
+
+- Designed a Cys→Ser substitution variant of HFBI and confirmed increased
+  expression by SDS-PAGE
+- For surfactant function, substituted Lys/Arg with Glu/Asp to lower the
+  isoelectric point to ~4.05; PredictSNP confirmed the substitutions remained
+  structurally neutral (26 variants generated)
+- Compared MBSP1, HFBI and HFBII as expression candidates
+
+### 3) Quantifying microbial growth behaviour
+
+Modelled *Yarrowia lipolytica* growth with the R packages `biogrowth` and
+`growthrates`, comparing glucose-based and oil-based media.
+
+### 4) Quantifying the limits of prediction tools
+
+Ten DHCR7 candidates were narrowed by molecular docking, then re-evaluated with
+20 ns molecular dynamics simulations. The candidate with the highest static
+docking score — the *Homo sapiens* enzyme — lost structural integrity during
+simulation, while the *Xenopus laevis* enzyme retained its hydrogen-bonding
+network (2.7–3.5 Å) and was selected instead.
+
+Prediction narrows the candidate set but does not settle it. This work
+established that with data rather than assumption.
+
+### 5) Reproducible contribution
+
+- Registered standardised part BBa_K4661015 (HFBI mutant–linker–sfGFP) in the
+  iGEM Registry
+- Published experimental and computational protocols and lab notebooks
+- Submitted validation primer sequences
+
+### Author's scope
+
+Within this team of 13 students I worked across both Wet Lab and Dry Lab.
+In the Wet Lab I handled expression vector construction, expression in
+*E. coli* BL21, Ni-NTA purification and SDS-PAGE verification. In the Dry Lab
+I handled the DHCR7 enzyme screening by docking and molecular dynamics.
+I also contributed to Outreach through social media content and a science
+festival booth.
 
 ---
 
@@ -69,7 +127,7 @@ Our computational work integrated structural biology and growth kinetics into fo
 
 ### 2.1 Core Dry Lab Objectives
 
-* **DHCR7 Enzyme Screening:** *In silico* screening of 10 DHCR7 candidate enzymes via molecular docking and MD simulations. (Note: DHCR7 structures are AlphaFold3/CSM predictions).
+* **DHCR7 Enzyme Screening:** *In silico* screening of 10 DHCR7 candidate enzymes via molecular docking and MD simulations. (Note: DHCR7 structures are AlphaFold2 predictions from the AlphaFold DB and ColabFold, not experimentally determined structures).
 * **Yarrowia lipolytica Growth Model:** Modelled using R packages (`biogrowth`, `growthrates`) comparing glucose vs. oil-based media.
 * **Hydrophobin Design (pI Optimisation):** Substituted Lys/Arg with Glu/Asp in HFBI to lower the isoelectric point, improving emulsification at the acidic pH preferred by *Y. lipolytica*.
 
