@@ -87,7 +87,7 @@ festival booth.
 
 Over **two billion tons of waste cooking oil (WCO)** were produced globally in 2016 alone. Belgium is renowned for its fried food culture; in 2021, approximately 88,000 metric tons of WCO were generated in the country. Just one liter of WCO can contaminate over one million liters of water.
 
-The EU currently converts WCO into biodiesel (UCOME), but combustion still releases CO₂. This project explores a higher-value alternative.
+The EU currently converts WCO into biodiesel (UCOME), but combustion still releases CO<sub>2</sub>. This project explores a higher-value alternative.
 
 <div align="center">
   <img src="Figures/Figure 2. Current synthesis methods of steroidal active pharmaceutical ingredient synthesis.png" width="750" alt="Synthesis Methods">
