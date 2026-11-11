@@ -5,11 +5,12 @@
 [![iGEM 2023](https://img.shields.io/badge/iGEM-2023-blue)](https://2023.igem.wiki/kuleuven/)
 [![KU Leuven](https://img.shields.io/badge/KU%20Leuven-Team-003d6b)](https://2023.igem.wiki/kuleuven/team)
 [![Best Model](https://img.shields.io/badge/Award-Best%20Model%20Nominee-gold)](https://2023.igem.wiki/kuleuven/model)
+[![Silver Medal](https://img.shields.io/badge/Award-Silver%20Medal-silver)](https://2023.igem.wiki/kuleuven/)
 
 ---
 
 ## 📋 Table of Contents
-0. [Engineering Highlights]
+0. [Engineering Highlights](#0-engineering-highlights)
 1. [Project Introduction](#1-project-introduction)
 2. [Overview & Key Models](#2-overview--key-models)
 3. [Experimental Design](#3-experimental-design)
@@ -341,7 +342,7 @@ We proposed a transition to a "Marionette" promoter system for tighter regulatio
 <br>
 
 <div align="center">
-  [🌐 Official Wiki](https://2023.igem.wiki/kuleuven/)<br>
-  [🔬 Project Description](https://2023.igem.wiki/kuleuven/description)<br>
-  [📊 Model](https://2023.igem.wiki/kuleuven/model)
+  <a href="https://2023.igem.wiki/kuleuven/">🌐 Official Wiki</a><br>
+  <a href="https://2023.igem.wiki/kuleuven/description">🔬 Project Description</a><br>
+  <a href="https://2023.igem.wiki/kuleuven/model">📊 Model</a>
 </div>
